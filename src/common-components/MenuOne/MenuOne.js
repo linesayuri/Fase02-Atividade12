@@ -1,17 +1,14 @@
 import styled from "styled-components";
 import {
-  BorderRadiuses,
   Colors,
   Spaces,
-  FontFamilies,
-  FontWeights,
-  FontSizes,
 } from "../../shared/DesignTokens";
 
 import iconcaminhada from "../../assets/icons/icon-caminhada.png";
 import iconcampanhas from "../../assets/icons/icon-campanhas.png";
 import icontroquesuasmoedas from "../../assets/icons/icon-troquesuasmoedas.png";
 import iconconquistas from "../../assets/icons/icon-conquistas.png";
+import { ButtonLink } from "../ButtonLink/ButtonLink";
 
 export const MenuWrapper = styled.menu`
 border: };
@@ -56,9 +53,13 @@ export function MenuOne() {
   return (
     <MenuWrapper>
       <IconCaminhada />
+      <ButtonLink>Caminhada</ButtonLink>
       <IconCampanhas />
+      <ButtonLink>Campanhas</ButtonLink>
       <IconTroquesuasmoedas />
+      <ButtonLink>Troque suas Moedas</ButtonLink>
       <IconConquistas />
+      <ButtonLink>Conquistas</ButtonLink>
     </MenuWrapper>
   );
 }

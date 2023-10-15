@@ -16,7 +16,8 @@ export const FontSizes = {
     ONE_QUARTER: '14px',
     TWO: '16px',
     THREE: '24px',
-    FOUR: '32px'
+    FOUR: '32px',
+    FIVE: '40px',
 };
 
 export const FontWeights = {
