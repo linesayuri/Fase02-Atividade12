@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Flex, Box } from 'reflexbox';
 import {
   Colors,
   Spaces,
@@ -31,10 +32,16 @@ const Logo = styled.img.attrs({
 `;
 export function Header() {
   return (
+    <Flex
+    width={['100%']};
+    height={['']}; 
+    >
+      
     <Wrapper>
       <Logo />
       <Button>Entrar</Button>
       <Button ghost={true}>Cadastrar</Button>
     </Wrapper>
+    </Flex>
   );
 }

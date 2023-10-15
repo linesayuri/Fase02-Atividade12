@@ -6,7 +6,7 @@ import {
   FontSizes,
 } from "../../shared/DesignTokens";
 
-export const HeadingTwo = styled.text`
+export const HeadingTwo = styled.h2`
 font-family: ${FontFamilies.PRIMARY};
 font-size: ${FontSizes.FOUR}
 font-weight: ${FontWeights.EXTRABOLD};

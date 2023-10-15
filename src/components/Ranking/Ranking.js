@@ -5,9 +5,9 @@ import {
 
 import { HeadingOne } from "./HeadingOne/HeadingOne";
 import { HeadingTwo } from "../../common-components/HeadingTwo/HeadingTwo";
-import {TextOne} from "../../common-components/TextOne/TextOne";
+import { TextOne } from "../../common-components/TextOne/TextOne";
 
-export const RankingWrapper = styled.div`
+export const RankingWrapper = styled.section`
 width: 100%;
 height: ;
 padding: ${Spaces.ONE_HALF};

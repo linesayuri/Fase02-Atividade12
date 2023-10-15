@@ -6,7 +6,7 @@ import {
   FontSizes,
 } from "../../shared/DesignTokens";
 
-export const HeadingOne = styled.text`
+export const HeadingOne = styled.span`
 font-family: ${FontFamilies.PRIMARY};
 font-size: ${FontSizes.THREE}
 font-weight: ${FontWeights.REGULAR};

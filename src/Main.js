@@ -2,6 +2,7 @@ import React from "react";
 import { Header } from "./common-components/Header/Header";
 import { MenuOne } from "./common-components/MenuOne/MenuOne";
 import { BannerMain } from "./components/Banner/Banner";
+import { Ranking } from "./components/Ranking/Ranking";
 
 const Main = () => {
   return (
@@ -16,6 +17,9 @@ const Main = () => {
       </div>
       <div>
         <BannerMain />
+      </div>
+      <div>
+        <Ranking />
       </div>
     </>
   );
