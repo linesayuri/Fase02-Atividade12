@@ -1,5 +1,7 @@
-import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
-
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Main } from "./Main";
+import { NotFound } from "./NotFound";
 import { NormalizeStyles } from "./shared/NormalizeStyles";
 
 function App() {
