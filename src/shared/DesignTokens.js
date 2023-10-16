@@ -1,9 +1,9 @@
 export const Colors = {
-  WHITE: 'FFFFFF',
-  BLACK: '000000',
-  PURPLE: '9356DF',
-  DARKBLUE: '003879',
-  MEDIUMGRAY: 'D9D9D9',
+  WHITE: '#FFFFFF',
+  BLACK: '#000000',
+  PURPLE: '#9356DF',
+  DARKBLUE: '#003879',
+  MEDIUMGRAY: '#D9D9D9',
 };
 
 export const FontFamilies = {
@@ -41,6 +41,8 @@ export const Spaces = {
     EIGHT: '64px', 
     NINE: '72px',
     TEN: '80px',
+    ELEVEN: '100px',
+    TWELVE: '200px',
 };
 
 export const BorderRadiuses = {

@@ -1,12 +1,12 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import {
   Colors,
   FontFamilies,
   FontWeights,
   FontSizes,
-} from "../../shared/DesignTokens";
+} from '../../shared/DesignTokens';
 
-export const HeadingOne = styled.span`
+export const TextOne = styled.p`
 font-family: ${FontFamilies.PRIMARY};
 font-size: ${FontSizes.THREE}
 font-weight: ${FontWeights.REGULAR};

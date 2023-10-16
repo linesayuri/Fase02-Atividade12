@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { Flex, Box } from 'reflexbox';
+import { Flex, Box } from "reflexbox";
 import {
   Colors,
   Spaces,
@@ -13,14 +13,14 @@ import { Button } from "../button/Button";
 const Wrapper = styled.header`
   width: 100%;
   height: 80px;
-  font-family: ${FontFamilies.PRIMARY};
   background-color: ${Colors.PURPLE};
-  padding: ;
   display: flex;
   justify-content: space-around;
-  align-items: ;
+  padding-left: ${Spaces.ELEVEN};
+  padding-right: ${Spaces.ELEVEN};
+  align-items: center;
   @media (min-width: 1024px) {
-    height: 90px;
+    height: 60px;
   }
 `;
 
@@ -30,18 +30,13 @@ const Logo = styled.img.attrs({
 })`
   height: 54px;
 `;
+
 export function Header() {
   return (
-    <Flex
-    width={['100%']};
-    height={['']}; 
-    >
-      
     <Wrapper>
-      <Logo />
-      <Button>Entrar</Button>
-      <Button ghost={true}>Cadastrar</Button>
+        <Logo />
+        <Button>Entrar</Button>
+        <Button ghost={true}>Cadastrar</Button>
     </Wrapper>
-    </Flex>
   );
 }

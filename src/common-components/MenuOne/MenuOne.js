@@ -1,8 +1,8 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 import {
   Colors,
   Spaces,
-} from "../../shared/DesignTokens";
+} from '../../shared/DesignTokens';
 
 import iconcaminhada from "../../assets/icons/icon-caminhada.png";
 import iconcampanhas from "../../assets/icons/icon-campanhas.png";
@@ -11,14 +11,17 @@ import iconconquistas from "../../assets/icons/icon-conquistas.png";
 import { ButtonLink } from "../ButtonLink/ButtonLink";
 
 export const MenuWrapper = styled.menu`
-border: };
-outline: none;
-width: 100%;
-height: 80px;
-background-color: ${Colors.MEDIUMGRAY};
-color: ${Colors.WHITE};
-padding: ${Spaces.ONE_HALF};
-cursor: pointer;
+  width: 100%;
+  height: 80px;
+  background-color: ${Colors.MEDIUMGRAY};
+  display: flex;
+  justify-content: space-around;
+  align-itens: center;
+  padding-left: ${Spaces.ELEVEN};
+  padding-right: ${Spaces.ELEVEN};
+  padding-top: ${Spaces.TWO};
+  cursor: pointer;
+  margin-top: ${Spaces.NONE};
 `;
 
 const IconCaminhada = styled.img.attrs({
@@ -52,14 +55,22 @@ const IconConquistas = styled.img.attrs({
 export function MenuOne() {
   return (
     <MenuWrapper>
-      <IconCaminhada />
-      <ButtonLink>Caminhada</ButtonLink>
-      <IconCampanhas />
-      <ButtonLink>Campanhas</ButtonLink>
-      <IconTroquesuasmoedas />
-      <ButtonLink>Troque suas Moedas</ButtonLink>
-      <IconConquistas />
-      <ButtonLink>Conquistas</ButtonLink>
+      <div>
+        <IconCaminhada />
+        <ButtonLink>Caminhada</ButtonLink>
+      </div>
+      <div>
+        <IconCampanhas />
+        <ButtonLink>Campanhas</ButtonLink>
+      </div>
+      <div>
+        <IconTroquesuasmoedas />
+        <ButtonLink>Troque suas Moedas</ButtonLink>
+      </div>
+      <div>
+        <IconConquistas />
+        <ButtonLink>Conquistas</ButtonLink>
+      </div>
     </MenuWrapper>
   );
 }
