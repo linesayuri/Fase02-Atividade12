@@ -17,8 +17,8 @@ export const MenuWrapper = styled.menu`
   display: flex;
   justify-content: space-around;
   align-itens: center;
-  padding-left: ${Spaces.ELEVEN};
-  padding-right: ${Spaces.ELEVEN};
+  padding-left: ${Spaces.TWELVE};
+  padding-right: ${Spaces.TWELVE};
   padding-top: ${Spaces.TWO};
   cursor: pointer;
   margin-top: ${Spaces.NONE};
@@ -29,6 +29,7 @@ const IconCaminhada = styled.img.attrs({
   alt: 'Caminhada"',
 })`
   height: 45px;
+  padding-right: ${Spaces.THREE}; 
 `;
 
 const IconCampanhas = styled.img.attrs({
@@ -36,6 +37,7 @@ const IconCampanhas = styled.img.attrs({
   alt: 'Campanhas"',
 })`
   height: 45px;
+  padding-right: ${Spaces.THREE};
 `;
 
 const IconTroquesuasmoedas = styled.img.attrs({
@@ -43,6 +45,7 @@ const IconTroquesuasmoedas = styled.img.attrs({
   alt: 'Troque suas moedas"',
 })`
   height: 45px;
+  padding-right: ${Spaces.THREE};
 `;
 
 const IconConquistas = styled.img.attrs({
@@ -50,6 +53,7 @@ const IconConquistas = styled.img.attrs({
   alt: 'Conquistas"',
 })`
   height: 45px;
+  padding-right: ${Spaces.THREE};
 `;
 
 export function MenuOne() {

@@ -36,7 +36,7 @@ export const Spaces = {
     THREE: '24px',
     FOUR: '32px',
     FIVE: '40px',
-    SOX: '48px',
+    SIX: '48px',
     SEVEN: '56px',
     EIGHT: '64px', 
     NINE: '72px',

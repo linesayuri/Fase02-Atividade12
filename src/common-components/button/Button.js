@@ -10,6 +10,7 @@ import {
 
 export const Button = styled.button`
 border-radius: ${BorderRadiuses.ONE};
+border-style: solid;
 border-color: ${(props) => (props.ghost ? Colors.WHITE : Colors.DARKBLUE)};
 width: 10%;
 height: 40px;
@@ -23,7 +24,7 @@ cursor: pointer;
 
 &: hover {
 background-color: ${Colors.WHITE};
-color: ${Colors.PURPLE};
+color: ${(props) => (props.ghost ? Colors.PURPLE : Colors.DARKBLUE)};
 }
 
 `;

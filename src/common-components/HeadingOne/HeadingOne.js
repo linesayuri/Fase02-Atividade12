@@ -8,7 +8,7 @@ import {
 
 export const HeadingOne = styled.h1`
 font-family: ${FontFamilies.PRIMARY};
-font-size: ${FontSizes.FIVE}
+font-size: ${FontSizes.FIVE};
 font-weight: ${FontWeights.EXTRABOLD};
 color: ${Colors.DARKBLUE};
 

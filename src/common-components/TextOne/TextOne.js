@@ -8,7 +8,7 @@ import {
 
 export const TextOne = styled.p`
 font-family: ${FontFamilies.PRIMARY};
-font-size: ${FontSizes.THREE}
+font-size: ${FontSizes.THREE};
 font-weight: ${FontWeights.REGULAR};
 color: ${Colors.BLACK};
 

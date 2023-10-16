@@ -8,7 +8,7 @@ import {
 
 export const ButtonLink = styled.a`
 font-family: ${FontFamilies.PRIMARY};
-font-size: ${FontSizes.THREE}
+font-size: ${FontSizes.THREE};
 font-weight: ${FontWeights.REGULAR};
 color: ${Colors.PURPLE};
 cursor: pointer;
