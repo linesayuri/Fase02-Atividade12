@@ -9,6 +9,7 @@ import iconcampanhas from "../../assets/icons/icon-campanhas.png";
 import icontroquesuasmoedas from "../../assets/icons/icon-troquesuasmoedas.png";
 import iconconquistas from "../../assets/icons/icon-conquistas.png";
 import { ButtonLink } from "../ButtonLink/ButtonLink";
+import { Link } from 'react-router-dom';
 
 export const MenuWrapper = styled.menu`
   width: 100%;
@@ -87,7 +88,9 @@ export function MenuOne() {
       </div>
       <div>
         <IconProfile />
-        <ButtonLink>Perfil</ButtonLink>
+        <ButtonLink> 
+          <Link to="/my_account">Perfil</Link> 
+        </ButtonLink>
       </div>
     </MenuWrapper>
   );
