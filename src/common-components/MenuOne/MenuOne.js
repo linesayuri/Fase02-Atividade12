@@ -56,6 +56,16 @@ const IconConquistas = styled.img.attrs({
   padding-right: ${Spaces.THREE};
 `;
 
+const IconProfile = styled.img.attrs({
+  src: iconconquistas,
+  alt: 'Conquistas"',
+})`
+  height: 45px;
+  padding-right: ${Spaces.THREE};
+`;
+
+
+
 export function MenuOne() {
   return (
     <MenuWrapper>
@@ -74,6 +84,10 @@ export function MenuOne() {
       <div>
         <IconConquistas />
         <ButtonLink>Conquistas</ButtonLink>
+      </div>
+      <div>
+        <IconProfile />
+        <ButtonLink>Perfil</ButtonLink>
       </div>
     </MenuWrapper>
   );
